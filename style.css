@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.videos{
+
+    height: 100%;
+    width: 100%;
+    position: relative; 
+
+
+    
+}
+#vid1{
+    height: 100%;
+    width: 100%;
+    display:none ;
+    background-position: contain;
+    object-fit: cover;
+} 
+#vid2{
+    height: 100%;
+    width: 100%;
+    display:none ;
+    background-position: contain;
+    object-fit: cover;
+}
+#vid3{
+    height: 100%;
+    width: 100%;
+    display:none ;
+    background-position: contain;
+    object-fit: cover;
+}
+#vid4{
+    height: 100%;
+    width: 100%;
+    display:none ;
+    background-position: contain;
+    object-fit: cover;
+}
+#vid5{
+    height: 100%;
+    width: 100%;
+    display:none ;
+    background-position: contain;
+    object-fit: cover;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+     position: absolute; 
+    top: 0;
+    left: 0;
+    
+}
+
+
+.nav{
+    padding: 20px 25px;
+   
+   
+}
+.box{
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 6px;
+}
+.box h1 {
+   height: 40px;
+   margin-left: 18px;
+
+}
+.svg-wrapper{
+    color: black;
+}
+.logo i{
+    font-size: larger;
+    
+    
+}
+
+.lef{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px 0px 0px;
+    justify-content: space-between;
+}
+.lef .line{
+    height: 50px;
+    width: 0.5px;
+    background-color: black;
+}
+
+#in{
+    color: grey;
+}
+
+.box2{
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 85vh;
+}
+
+.heading{
+    height: 50px;
+    width: 500px;
+    margin: auto;
+}
+.heading h6{
+    padding: 20px 0px;
+    color: rgb(73, 72, 72);
+    font-size: 1.6vh;
+    font-weight:600
+}
+
+.content{
+    height: 100px;
+    width: 1020px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap ;
+
+    
+   
+   
+}
+.content h3{
+    
+    font-size: 2.69vw;
+    font-weight: 500;
+    
+}
+
+.out{
+    color: rgb(73, 72, 72);
+    font-size: 2.1vh;
+    font-weight:500
+    
+}
+.mooders{
+    font-size: 9.2vw;
+}
+.mooders h1{
+    margin-top: 40px;
+}
